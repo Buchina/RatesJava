@@ -88,8 +88,12 @@ public class Main {
             System.out.println(":(");
             return;
         }
-        System.out.println("Здравствуй, " + current.getLogin()+ "!"+"\nНа вашем счету "
-                +current.getMoney()+" монет");
+        System.out.println("\nЗдравствуй, " + current.getLogin()+ "!"+" На вашем счету "
+                +current.getMoney()+" монет.\nСегодня в гонке участвуют:\n");
+        Participant num1=new Participant(new HorseFactory());
+        System.out.println("№1"+num1.toString());
+        Participant num2=new Participant(new DonkeyFactory());
+        System.out.println("№2"+num2.toString());
     }
 }
 
