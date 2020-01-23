@@ -9,9 +9,9 @@ public class Main {
         String login;
         String password;
         float money;
-        String loginInput;
+        String loginInput = "";
         String passwordInput;
-        Account current=new Account("0","0",0);
+        Account current = new Account("0", "0", 0);
         ArrayList<Account> a = new ArrayList<Account>();
         BufferedReader in = new BufferedReader(new FileReader("src/MyClass/Accounts.txt"));
         FileWriter out = new FileWriter("src/MyClass/Accounts.txt", true);
@@ -28,55 +28,41 @@ public class Main {
             buf = in.readLine();
         }
         in.close();
-//        System.out.println(a); // вывод всех аккаунтов
+        //System.out.println(a)); // вывод всех аккаунтов
         System.out.println("Добро пожаловать на гонку \"ГлобалЭнималРэйс\"!\nСкорее регистрируйтесь, " +
                 "вносите сумму и выбирайте спортсмена! \nСамые высокие коэффициенты гарантированы.\n\n" +
                 "У Вас уже имеется аккаунт? 1-да, 0-нет");
         Scanner sc = new Scanner(System.in);
         int answer = sc.nextInt();
         if (answer == 1) {
-            System.out.println("Введите логин:");
-            loginInput = sc.next();
-            System.out.println("Введите пароль:");
-            passwordInput = sc.next();
-            boolean has = false;
-            for (int i = 0; i < a.size(); i++) {
-                has = a.get(i).enter(loginInput, passwordInput);
-                if (has) {
-                    current = a.get(i);
-                    break;
-                }
-            }
-            while (!has) {
-                System.out.println("Ошибка! Проверьте правильность ввода данных.\nПопробуйте еще раз.\n");
+            boolean hasAcc = false;
+            while (!hasAcc) {
                 System.out.println("Введите логин:");
                 loginInput = sc.next();
                 System.out.println("Введите пароль:");
                 passwordInput = sc.next();
                 for (int i = 0; i < a.size(); i++) {
-                    has = a.get(i).enter(loginInput, passwordInput);
-                    if (has) {
+                    hasAcc = a.get(i).enter(loginInput, passwordInput);
+                    if (hasAcc) {
                         current = a.get(i);
                         break;
+
                     }
                 }
+                if (!hasAcc) System.out.println("Ошибка! Проверьте правильность ввода данных.\nПопробуйте еще раз.\n");
             }
 
+
         } else if (answer == 0) {
-            boolean is = false;
+            boolean isAcc = false;
             System.out.println("Придумайте логин:");
-            loginInput = sc.next();
-            for (int i = 0; i < a.size(); i++) {
-                is = a.get(i).checkNewLogin(loginInput);
-                if (!is) break;
-            }
-            while (!is) {
-                System.out.println("Такой логин уже есть:( Придумайте другой логин:");
+            while (!isAcc) {
                 loginInput = sc.next();
                 for (int i = 0; i < a.size(); i++) {
-                    is = a.get(i).checkNewLogin(loginInput);
-                    if (!is) break;
+                    isAcc = a.get(i).checkNewLogin(loginInput);
+                    if (!isAcc) break;
                 }
+                if (!isAcc) System.out.println("Такой логин уже есть:( Придумайте другой логин:");
             }
             System.out.println("Придумайте пароль:");
             passwordInput = sc.next();
@@ -88,12 +74,32 @@ public class Main {
             System.out.println(":(");
             return;
         }
-        System.out.println("\nЗдравствуй, " + current.getLogin()+ "!"+" На вашем счету "
-                +current.getMoney()+" монет.\nСегодня в гонке участвуют:\n");
-        Participant num1=new Participant(new HorseFactory());
-        System.out.println("№1"+num1.toString());
-        Participant num2=new Participant(new DonkeyFactory());
-        System.out.println("№2"+num2.toString());
+        System.out.println("\nЗдравствуй, " + current.getLogin() + "!" + " У вас на счету "
+                + current.getMoney() + " монет.\n");
+
+        if (current.getMoney()==0) { //пожалуй надо запихать в цикл
+            System.out.println("К сожалению участвовать в ставках вы больше не можете:(");
+            return;
+        }
+
+
+        while (!current.tryRates) {
+            System.out.println("Сколько монет ваша ставка?");
+            float moneyRate = sc.nextFloat();
+            System.out.println(current.Rates(moneyRate));
+        }
+       FileWriter reOut = new FileWriter("src/MyClass/Accounts.txt", false);
+        for (int i = 0; i < a.size(); i++) {
+            reOut.write(a.get(i)+"\n");
+        }
+        reOut.close();
+
+
+//        System.out.println("Сегодня в гонке участвуют:\n");
+//        Participant member1 = new Participant(new HorseFactory());
+//        System.out.println("№1" + num1.toString());
+//        Participant member2 = new Participant(new DonkeyFactory());
+//        System.out.println("№2" + num2.toString());
     }
 }
 

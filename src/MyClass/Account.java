@@ -4,6 +4,8 @@ public class Account {
     public String login;
     public String password;
     public float money;
+    public boolean Rates = true;
+    public boolean tryRates=false;
 
     public Account(String login, String password, float money) {
         this.login = login;
@@ -27,6 +29,16 @@ public class Account {
     public boolean enter(String loginInput, String passwordInput) {
         if ((loginInput.equals(login)) && (passwordInput.equals(password))) return true;
         else return false;
+    }
+
+    public String Rates(float moneyInput) {
+        if ((money - moneyInput) < 0) {
+            return ("На вашем счету недостаточно средств. Введите сумму не более "+getMoney());
+        } else {
+            money -= moneyInput;
+            tryRates=true;
+            return ("Отлично! На вашем счету " + getMoney() + " монет");
+        }
     }
 
     @Override
