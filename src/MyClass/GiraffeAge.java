@@ -4,7 +4,7 @@ import MyInterface.Age;
 
 import java.util.Random;
 
-public class HorseAge implements Age {
+public class GiraffeAge implements Age {
     public int age;
 
     @Override

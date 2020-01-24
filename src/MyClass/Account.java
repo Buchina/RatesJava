@@ -4,8 +4,7 @@ public class Account {
     public String login;
     public String password;
     public float money;
-    public boolean Rates = true;
-    public boolean tryRates=false;
+    public boolean tryRates = false;
 
     public Account(String login, String password, float money) {
         this.login = login;
@@ -31,14 +30,27 @@ public class Account {
         else return false;
     }
 
-    public String Rates(float moneyInput) {
+    public void Rates(float moneyInput) {
+        tryRates = false;
         if ((money - moneyInput) < 0) {
-            return ("На вашем счету недостаточно средств. Введите сумму не более "+getMoney());
+            System.out.println("На вашем счету недостаточно средств. Введите сумму не более " + getMoney());
         } else {
+            tryRates = true;
             money -= moneyInput;
-            tryRates=true;
-            return ("Отлично! На вашем счету " + getMoney() + " монет");
+            System.out.println("Отлично! На вашем счету " + getMoney() + " монет");
         }
+    }
+
+    public void AddMoney(float add) {
+        money += add;
+    }
+
+    public boolean CheckAcc() {
+        if (money == 0) {
+            System.out.println("Участвовать в ставках вы не можете:(\nСпасибо за игру, до свидания!");
+            return false;
+        } else return true;
+
     }
 
     @Override

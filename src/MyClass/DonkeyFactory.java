@@ -17,4 +17,9 @@ public class DonkeyFactory implements AnimalFactory {
     public int createSpeed() {
         return new DonkeySpeed().getSpeed();
     }
+
+    @Override
+    public int createPower() {
+        return new DonkeyPower().getPower();
+    }
 }

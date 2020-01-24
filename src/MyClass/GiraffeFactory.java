@@ -2,25 +2,24 @@ package MyClass;
 
 import MyInterface.AnimalFactory;
 
-public class HorseFactory implements AnimalFactory {
-
+public class GiraffeFactory implements AnimalFactory {
     @Override
     public String createName() {
-        return "Лошадь";
+        return "Жираф";
     }
 
     @Override
     public int createAge() {
-        return new HorseAge().getAge();
+        return new GiraffeAge().getAge();
     }
 
     @Override
     public int createSpeed() {
-        return new HorseSpeed().getSpeed();
+        return new GiraffeSpeed().getSpeed();
     }
 
     @Override
     public int createPower() {
-        return new HorsePower().getPower();
+        return new GiraffePower().getPower();
     }
 }

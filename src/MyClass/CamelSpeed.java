@@ -4,13 +4,13 @@ import MyInterface.Speed;
 
 import java.util.Random;
 
-public class DonkeySpeed implements Speed {
+public class CamelSpeed implements Speed {
     public int speed;
 
     @Override
     public int getSpeed() {
         int min = 1;
-        int max = 70;
+        int max = 60;
         speed = new Random().nextInt((max - min) + 1) + min;
         return speed;
 
