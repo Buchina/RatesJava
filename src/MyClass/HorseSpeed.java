@@ -13,6 +13,5 @@ public class HorseSpeed implements Speed {
         int max = 60;
         speed = new Random().nextInt((max - min) + 1) + min;
         return speed;
-
     }
 }

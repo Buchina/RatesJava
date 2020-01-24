@@ -41,11 +41,11 @@ public class Account {
         }
     }
 
-    public void AddMoney(float add) {
+    public void addMoney(float add) {
         money += add;
     }
 
-    public boolean CheckAcc() {
+    public boolean checkAcc() {
         if (money == 0) {
             System.out.println("Участвовать в ставках вы не можете:(\nСпасибо за игру, до свидания!");
             return false;

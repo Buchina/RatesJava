@@ -13,6 +13,5 @@ public class HorsePower implements Power {
         int max = 10;
         power = new Random().nextInt((max - min) + 1) + min;
         return power;
-
     }
 }

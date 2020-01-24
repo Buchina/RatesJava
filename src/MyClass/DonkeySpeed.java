@@ -13,6 +13,5 @@ public class DonkeySpeed implements Speed {
         int max = 70;
         speed = new Random().nextInt((max - min) + 1) + min;
         return speed;
-
     }
 }

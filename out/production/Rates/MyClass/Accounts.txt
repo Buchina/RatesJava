@@ -1,2 +1,2 @@
-buchakucha 1234 3000
-igas_top 4321 500
+buchakucha 1234 2900.0
+igas_top 4321 500.0

@@ -13,6 +13,5 @@ public class GiraffeSpeed implements Speed {
         int max = 55;
         speed = new Random().nextInt((max - min) + 1) + min;
         return speed;
-
     }
 }

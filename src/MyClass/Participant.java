@@ -17,7 +17,6 @@ public class Participant {
         age = factory.createAge();
         speed = factory.createSpeed();
         name = factory.createName();
-
     }
 
     @Override
@@ -26,6 +25,4 @@ public class Participant {
         out.append("\nБЕГУН: " + name + "\nВОЗРАСТ: " + age + " лет\nСКОРОСТЬ: " + speed + " км/ч\nСИЛА: " + power + " из 10");
         return out.toString();
     }
-
-
 }

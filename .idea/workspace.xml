@@ -3,25 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ffb28ee5-7cf1-495b-93d5-41c95702b885" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyClass/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyClass/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyClass/Accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyClass/Accounts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyClass/DonkeyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyClass/DonkeyFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyClass/DonkeySpeed.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyClass/DonkeySpeed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyClass/HorseAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyClass/HorseAge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyClass/HorseFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyClass/HorseFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyClass/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyClass/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyClass/Participant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyClass/Participant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Rates/MyInterface/AnimalFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Rates/MyInterface/AnimalFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyClass/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyClass/Accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass/Accounts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyClass/Coefficient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyClass/DonkeyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass/DonkeyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyClass/DonkeySpeed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass/DonkeySpeed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyClass/HorseAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass/HorseAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyClass/HorseFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass/HorseFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyClass/Participant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyClass/Participant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyInterface/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyInterface/AnimalFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,10 +21,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyClass/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+            <state relative-caret-position="369">
+              <caret line="130" column="58" selection-start-line="130" selection-start-column="58" selection-end-line="130" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyClass/Utils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MyClass/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+              <folding>
+                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,28 +60,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyClass/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyClass/PlayRates.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -106,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/MyClass/GiraffeSpeed.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/MyClass/HorseSpeed.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+              <caret line="16" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyClass/HorsePower.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="238">
               <caret line="16" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -141,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyClass/DonkeyAge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="15" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/MyClass/HorseFactory.java" />
         <option value="$PROJECT_DIR$/src/MyClass/DonkeyFactory.java" />
         <option value="$PROJECT_DIR$/src/MyClass/Participant.java" />
-        <option value="$PROJECT_DIR$/src/MyClass/Account.java" />
         <option value="$PROJECT_DIR$/src/MyException/BadAnswerException.java" />
         <option value="$PROJECT_DIR$/src/MyException/BadMoneyException.java" />
         <option value="$PROJECT_DIR$/src/MyException/BadNumberException.java" />
@@ -193,16 +178,18 @@
         <option value="$PROJECT_DIR$/src/MyClass/HorseAge.java" />
         <option value="$PROJECT_DIR$/src/MyClass/PlayRates.java" />
         <option value="$PROJECT_DIR$/src/MyClass/GiraffFactory.java" />
-        <option value="$PROJECT_DIR$/src/MyClass/Main.java" />
         <option value="$PROJECT_DIR$/src/MyClass/GiraffeFactory.java" />
         <option value="$PROJECT_DIR$/src/MyClass/GiraffeAge.java" />
         <option value="$PROJECT_DIR$/src/MyClass/GiraffePower.java" />
         <option value="$PROJECT_DIR$/src/MyClass/GiraffeSpeed.java" />
+        <option value="$PROJECT_DIR$/src/MyClass/Account.java" />
+        <option value="$PROJECT_DIR$/src/MyClass/Utils.java" />
+        <option value="$PROJECT_DIR$/src/MyClass/Main.java" />
         <option value="$PROJECT_DIR$/src/MyClass/Accounts.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="303" />
     <option name="y" value="30" />
     <option name="width" value="741" />
@@ -213,7 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,7 +235,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,8 +298,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12934947" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13086233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +309,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36876008" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36876008" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -339,34 +327,6 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12934947" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26409018" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32850242" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
@@ -381,13 +341,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyClass/Horse.java" />
-    <entry file="file://$PROJECT_DIR$/src/MyException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyException.java" />
     <entry file="file://$PROJECT_DIR$/src/MyClass/DonkeyPower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -453,13 +407,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClass/Coefficient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyClass/Coefficient.java" />
     <entry file="file://$PROJECT_DIR$/src/MyClass/HorseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -549,19 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClass/GiraffFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyClass/GiraffFactory.java" />
     <entry file="file://$PROJECT_DIR$/src/MyClass/GiraffeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -574,13 +510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClass/DonkeyAge.java">
+    <entry file="file://$PROJECT_DIR$/src/MyClass/PlayRates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -588,16 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClass/HorsePower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="16" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -614,30 +537,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClass/HorseSpeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MyClass/GiraffeSpeed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClass/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/MyClass/HorseSpeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+        <state relative-caret-position="238">
+          <caret line="16" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyClass/HorsePower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="5" selection-start-line="7" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyClass/DonkeyAge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -646,8 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyClass/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="242">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="e#1200#1201#0" expanded="true" />
             <element signature="e#1228#1229#0" expanded="true" />
@@ -655,10 +588,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClass/PlayRates.java">
+    <entry file="file://$PROJECT_DIR$/src/MyClass/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="30" column="46" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="369">
+          <caret line="130" column="58" selection-start-line="130" selection-start-column="58" selection-end-line="130" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyClass/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
