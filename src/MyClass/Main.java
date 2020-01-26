@@ -11,31 +11,17 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] argv) throws IOException, BadAnswerException, InputMismatchException, BadMoneyException {
+        Dialog dialog = new Dialog();
         Utils util = new Utils();
-        String login;
-        String password;
-        float money;
+        String login = "";
+        String password = "";
+        float money = 0;
         String loginInput = "";
         String passwordInput;
         Account current = new Account("0", "0", 0);
         ArrayList<Account> accounts = new ArrayList<Account>();
-        BufferedReader in = new BufferedReader(new FileReader("src/MyClass/Accounts.txt"));
-        FileWriter out = new FileWriter("src/MyClass/Accounts.txt", true);
-        String buf = in.readLine();
-        if (buf == null) return;
-        while (buf != null) {
-            String[] array = buf.trim().split(" +");
-            login = array[0];
-            password = array[1];
-            money = Float.parseFloat(array[2]);
-            Account person = new Account(login, password, money);
-            accounts.add(person);
-            buf = in.readLine();
-        }
-        in.close();
-        System.out.println("Добро пожаловать на гонку \"ГлобалЭнималРэйс\"!\nСкорее регистрируйтесь, " +
-                "выбирайте бегуна и вносите сумму! \nСамые высокие коэффициенты гарантированы.\n\n" +
-                "У Вас уже имеется аккаунт? 1-да, 0-нет");
+        util.readFile(login, password, money, accounts);
+        dialog.greeting();
         Scanner sc = new Scanner(System.in);
         try {
             int answer = sc.nextInt();
@@ -70,13 +56,11 @@ public class Main {
                 }
                 System.out.println("Придумайте пароль:");
                 passwordInput = sc.next();
-                out.write("\n" + loginInput + " " + passwordInput + " " + "1000");
-                out.close();
+                util.addAccFile(loginInput, passwordInput);
                 current = new Account(loginInput, passwordInput, 1000);
                 accounts.add(current);
             }
-            System.out.println("\nЗдравствуй, " + current.getLogin() + "!" + " У вас на счету "
-                    + current.getMoney() + " монет.\n");
+            dialog.inform(current);
             if (!current.checkAcc()) return;
             while (current.getMoney() != 0) {
                 float moneyRate = 0;
@@ -99,7 +83,7 @@ public class Main {
                 match.preGame(members, membersCof);
                 System.out.println("На кого из участников будет ваша ставка?");
                 int choice = sc.nextInt();
-                if ((choice <= 0) || (choice >= 4)) throw new BadNumberException();
+                if ((choice <= 0) || (choice >= 5)) throw new BadNumberException();
                 int win = match.Winner();
                 System.out.println("Победитель забега участник №" + (win + 1) + ".\n");
                 float addMoney = match.Reward(win, choice - 1, moneyRate, membersCof);
